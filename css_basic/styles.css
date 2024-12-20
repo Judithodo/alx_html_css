@@ -89,6 +89,8 @@ button{
 .button{
     text-align: center;
 }
-@media () {
-    
+@media (max-width:1000px) {
+    main{
+        display: block;
+    }
 }
