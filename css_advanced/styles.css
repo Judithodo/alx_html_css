@@ -143,6 +143,8 @@ body{
 }
 .container-5 div{
     padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 .container-5 button{
     margin-top:25px;
@@ -192,6 +194,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top:30px;
     
 }
 .footer-main{
