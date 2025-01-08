@@ -33,18 +33,7 @@ header{
 	align-items: center; */
     
 }
-.menu-toggle {
-    display: none;
-  }
-  .hamburger-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 25px;
-    cursor: pointer;
-    z-index: 10;
-  }
+
 .bar{
 	width:90%;
 	height:3px;
@@ -79,31 +68,6 @@ header{
     width: 200px;
     height: 100vh;
     padding-top: 50px;
-    z-index: 5;
-  }
-  
-  .nav-menu ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .nav-menu ul li {
-    padding: 15px;
-    text-align: center;
-  }
-  
-  .nav-menu ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  .nav-menu ul li a:hover {
-    background-color: #444;
-  }
- 
-  .menu-toggle:checked ~ .hamburger-icon ~ .nav-menu {
-    display: block;
   }
 .text{
     font-size:20px;
