@@ -129,6 +129,8 @@ header{
     font-weight: bold;
     font-size:20px;
     padding-top: 20px;
+    width:70%;
+
 }
 .section2{
     padding-top:50px;
@@ -138,6 +140,13 @@ header{
 }
 .text6{
     font-size:18px;
+    width:70%;
+}
+.section2-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
