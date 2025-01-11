@@ -147,6 +147,11 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 35px;
+}
+.section2-body i{
+    color: #FF6565;
+    font-size:30px;
 }
 .section3{
     display: flex;
@@ -430,7 +435,7 @@ form div{
     .image-text, .image-text2, .image-text3, .image-text4{
         position: absolute;
         /* bottom:30px; */
-        left:95px;
+        left:110px;
         color: #fff;
         line-height: .6rem;
         

@@ -153,7 +153,167 @@ header{
     color: #FF6565;
     font-size:30px;
 }
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(img/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.section3 h2{
+    font-size:25px;
+    padding-bottom:25px;
+    padding-top: 15px;
+    color: #fff;
+    /* width:80%; */
+}
+.section3 p{
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    padding-bottom:25px;
+}
+.section3-body{
+    text-align: center;
+}
+.section3 img{
+    width:50%;
 
+}
+.image-text p, .image-text2 p, .image-text3 p ,.image-text4 p{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.image-parent{
+    position: relative;
+    margin-bottom: 20px;
+}
+.image-text{
+    position: absolute;
+    bottom:50px;
+    left:120px;
+    color: #fff;
+    
+}
+.image-text2{
+    position: absolute;
+    bottom:50px;
+    left:120px;
+    color: #fff;
+}
+.image-text3{
+    position: absolute;
+    bottom:50px;
+    left:120px;
+    color: #fff;  
+}
+.image-text3{
+    position: absolute;
+    bottom:50px;
+    left:120px;
+    color: #fff;  
+}
+.image-text4{
+    position: absolute;
+    bottom:50px;
+    left:120px;
+    color: #fff;  
+}
+.section4{
+    padding: 30px;
+}
+input{
+    width: 430px;
+    height:50px;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+    outline: none;
+    font-size: 15px;
+}
+form button{
+    background-color:#FF6565;
+    padding:20px;
+    border: 0px;
+    margin-bottom:40px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4 h2{
+    /* width: 80%; */
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+footer{
+    background-color: #081422;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    padding-top: 20px;
+
+}
+footer p{
+    font-size:18px;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.icons i{
+    padding-left: 25px;
+    color: #fff;
+    font-size: 25px;
+    padding-top:20px;
+}
+@media(min-width:1500px){
+    .section3-body{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+    } 
+   
+}
+@media(min-width:600px){
+    .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+    input{
+        width: 500px;
+    }
+    .top{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        padding:40px;
+    }
+    .pic{
+        padding-top: 30px;
+    }
+     
+}
 @media(min-width:800px){
     .section1-mobile{
         display: none;
@@ -257,10 +417,63 @@ header{
         width:90%;
         
     }
+    .section3-body{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+    }
+    .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+
+    }
+    input{
+        width: 600px;;
+    }
    
 }
 @media(min-width:1100px){
     .section2{
         display: flex;
     }
+    .section3-body{
+        display:flex;
+    }
+    .image-text, .image-text2, .image-text3, .image-text4{
+        position: absolute;
+        /* bottom:30px; */
+        left:80px;
+        color: #fff;
+        line-height: .6rem;
+        
+    }
+    .image-text p, .image-text2 p, .image-text3 p ,.image-text4 p{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .image-text span, .image-text2 span, .image-text3 span ,.image-text4 span{
+        font-size:15px;
+        padding-bottom: 10px;
+    }
+    .section3 img{
+        width:65%;
+    
+    }
+}
+@media(min-width:1200px){
+
+    .section3 img{
+        width:65%;
+    
+    }
+    .image-text, .image-text2, .image-text3, .image-text4{
+        position: absolute;
+        /* bottom:30px; */
+        left:110px;
+        color: #fff;
+        line-height: .6rem;
+        
+    }  
 }
